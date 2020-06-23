@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run server",
+    "start": "nodemon -e pug,md,sass --ignore public/ -L --exec 'yarn run server'",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -21,6 +21,7 @@
     "hexo-renderer-dart-sass": "git+https://github.com/codysherman/hexo-renderer-dart-sass.git",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-pug": "^1.0.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "nodemon": "^2.0.4"
   }
 }
