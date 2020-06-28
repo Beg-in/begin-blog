@@ -26,17 +26,17 @@ html, body {
   fill: #fff;
 }
 
-.hero-content {
+a:hover, a:active, a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+a .hero-content {
   max-width: 1240px;
   text-align: center;
   width: 100%;
   color: #fff;
   text-decoration: none;
   font-size: 24px;
-}
-.hero-content:hover, .hero-content:active, .hero-content:focus {
-  color: #fff;
-  text-decoration: none;
 }
 
 #info-column {

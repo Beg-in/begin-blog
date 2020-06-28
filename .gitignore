@@ -5,3 +5,4 @@ package-lock.json
 dump.rdb
 yarn-error.log
 dist/
+public
