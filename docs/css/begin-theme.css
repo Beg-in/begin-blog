@@ -19,18 +19,16 @@ html, body {
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
 }
-
-.begin-logo {
+.hero .begin-logo {
   width: 400px;
   height: auto;
   fill: #fff;
 }
-
-a:hover, a:active, a:focus {
+.hero a:hover, .hero a:active, .hero a:focus {
   color: #fff;
   text-decoration: none;
 }
-a .hero-content {
+.hero a .hero-content {
   max-width: 1240px;
   text-align: center;
   width: 100%;
