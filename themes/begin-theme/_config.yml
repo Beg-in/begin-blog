@@ -3,9 +3,9 @@ language: en
 
 # main menu navigation
 menu:
-  Home: /
-  Case Studies: /case-studies
-  Blog: /blog
+  Home: https://beg.in
+  Blog: /
+  Case Studies: https://beg.in/case-studies
 
 # stylesheets loaded in the <head>
 stylesheets:

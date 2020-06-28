@@ -4,7 +4,8 @@ if page.posts.length > 0
     h1.mb-50 Recent Posts
     each post in page.posts.sort('date', -1).limit(10).toArray()
       .recent-post-item
-        .frow.column-start
+        h3
           a(href=url_for(post.path))= post.title
-          if post.date
-            time(datetime=post.date.toJSON())= date(post.date, date_format)
+        if post.date
+          time(datetime=post.date.toJSON())= date(post.date, date_format)
+        p= post.excerpt
