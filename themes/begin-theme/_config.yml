@@ -9,8 +9,8 @@ menu:
 
 # stylesheets loaded in the <head>
 stylesheets:
-  - ./css/begin-theme.css
+  - /css/begin-theme.css
 
 # scripts loaded in the end of the body
 scripts:
-  - ./js/begin-theme.js
+  - /js/begin-theme.js
