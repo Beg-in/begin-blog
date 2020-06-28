@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon -e pug,md,sass --ignore public/ -L --exec 'yarn run server'",
-    "build": "hexo generate && rm -rf docs && mv -f public docs",
+    "build": "hexo generate && rm -rf docs && mv -f public docs && echo 'blog.beg.in' > docs/CNAME",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server -p 8080"
